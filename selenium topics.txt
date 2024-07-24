@@ -1,0 +1,67 @@
+1. testNG
+TestNG Listeners - itestlistener interface
+TestNG Features - 
+-> support annotations
+-> able to generate logs and reports
+-> easy to pass parameters
+-> parallel execution
+
+2. Apache poi
+-> perform read and write operations 
+-> methods in apache poi
+createrow, create cell, getrow , getcell , getlastrownumber
+getlastcellnumber, getcelltype, getcellvalue , setcellvalue
+ex
+i.  insert data into single column
+ii. insert data into multiple columns
+iii. modify data in particular cell
+iv. modify data in multiple rows
+v. get data from particular row and cell
+
+3. operations to perform on web elements
+----------------------------------------
+i. click , clear , sendkeys , gettext , gettagname , isSelected 
+   getlocation x and getlocation Y
+   isdisplayed , isenabled, getattribute
+
+tagname of web element 
+sno |  webElement | HTML Tag | Mandatory property |
+1.    Link           a            href
+2.    TextField      input        type = 'text'
+3.    password       input        type='password'
+4.    radiobuttons   input        type='radio'
+5.    checkboxes     input        type='checkbox'
+6.    submitbutton   input        type='submit'
+7.    email field    input        type='email'
+8.    cancel button  input        type='cancel'
+9.    dropdown       select       none
+10.   image          img          src
+11.   frames         iframe       none
+12.   webtable       table        none
+13.   rows in table  tr           none
+14.   columns in table td         none
+15.   text            P
+16.   boldtext        B           
+17.   header	      H1-H6 
+
+4. working with links
+----------------------
+-> count no of links, get names of each link
+
+5. working with drop downs
+--------------------------
+-> select values
+-> count no of values
+-> get name of each dropdown value
+
+6. isDisplayed()- from dropdown value select value is displayed or not
+-> select a value from dropdown and check is displayed or not
+
+7.working with radio buttons
+----------------------------
+-> goibibo.com count no of radio buttons
+-> get names of each radio button
+-> get default status of a particular raio button
+
+8. working with checkbox (check it is selected or not)
+   
